@@ -17,7 +17,7 @@ const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'wall', fromMe: true, desc: Lang.WP}, (async (message, match) => {
+    Asena.addCommand({pattern: 'wallpaper', fromMe: true, desc: Lang.WP}, (async (message, match) => {
 
         var r_text = new Array ();
 
@@ -652,7 +652,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'wall', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+    Asena.addCommand({pattern: 'wallpaper', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
         var r_text = new Array ();
 
